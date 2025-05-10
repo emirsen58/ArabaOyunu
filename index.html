@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Araba Oyunu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start-screen">
+    <h1>Araba Oyunu</h1>
+    <button id="start-button">Oyuna Başla</button>
+  </div>
+  <div id="game-container" style="display:none;">
+    <div class="side-grass left"></div>
+    <div class="road">
+      <div class="lane-divider"></div>
+      <div class="lane-divider"></div>
+      <div class="lane-divider"></div>
+      <div class="lane-divider"></div>
+    </div>
+    <div class="side-grass right"></div>
+    <div id="player-car"></div>
+    <div id="score">Skor: 0</div>
+    <button id="pause-button">Duraklat</button>
+    <div id="speedometer">Hız: 0 km/h</div>
+    <div id="game-over">Oyun Bitti! <br> <button id="restart-button">Yeniden Başlat</button></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
